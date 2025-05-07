@@ -19,7 +19,7 @@ values("Laptop",101),
 
 
 -- Question 2 Achieving 2NF (Second Normal Form) 
--- To ensure the OrderDetails table is into 2NF we will split it into two tables that is orders table and orderdetail table
+-- To ensure the OrderDetails table is into 2NF we will split it into two tables that is orders table and products table
 
 create table orders(ID int primary key, customername varchar(255));
 insert into orders(id, customername)
